@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "vercel-build": "npm ci && next dev",
+    "vercel-build": "npm i && npm ci",
     "build": "next build",
     "dev": "next dev",
     "prettier": "prettier --write --ignore-unknown .",
